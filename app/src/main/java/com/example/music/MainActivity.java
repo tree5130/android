@@ -12,6 +12,7 @@ public class MainActivity extends AppCompatActivity {
     MediaPlayer brid;
     MediaPlayer cat;
     MediaPlayer dog;
+    int a = 10;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void cat(View view) {
+	system.out.println(a);
         cat.start();
     }
 
